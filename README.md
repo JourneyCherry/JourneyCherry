@@ -1,4 +1,5 @@
-#include <Human>
+```C#
+using Human;
 
 public class JourneyCherry : Human
 {
@@ -18,3 +19,4 @@ int main(int argc, char*[] argv)
       JourneyCherry me = new JourneyCherry();
       print(me);
 }
+```
