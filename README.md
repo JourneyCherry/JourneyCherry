@@ -1,5 +1,6 @@
 ```C#
 using Human;
+using World;
 
 public class JourneyCherry : Human
 {
@@ -14,9 +15,12 @@ public class JourneyCherry : Human
       }
 }
 
-int main(int argc, char*[] argv)
+class World
 {
-      JourneyCherry me = new JourneyCherry();
-      print(me);
+      static void Main(string[] args)
+      {
+            JourneyCherry me = new JourneyCherry();
+            Console.WriteLine(me);
+      }
 }
 ```
