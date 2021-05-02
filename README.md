@@ -6,10 +6,15 @@ public class JourneyCherry : Human
 {
       private string m_Hobby = "Game";
       private string m_Language = "Korean";       //TODO : add English, Japanese
-      private string m_ProgrammingLanguage = "C"; //It can be changed.
+      private string[] m_ProgrammingLanguages = new string[]{
+            "C",
+            "C#", //for Unity
+            "Java",
+            "Erlang"
+      };
       private string m_Company = null;
       
-      public string ToString()
+      public override string ToString()
       {
             return "Hello World!";
       }
